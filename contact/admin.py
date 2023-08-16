@@ -3,7 +3,8 @@ from contact import models
 
 @admin.register(models.Contact)
 class ContactAdmin(admin.ModelAdmin):
-    list_display = 'id', 'first_name', 'last_name','phone',
+    list_display = 'id', 'first_name', 'last_name','phone','show',
+    list_editable = 'first_name', 'last_name','show',
     ordering = 'id',
 
 @admin.register(models.Category)
