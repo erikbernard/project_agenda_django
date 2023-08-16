@@ -89,7 +89,7 @@ DATABASES = {
 
 AUTH_PASSWORD_VALIDATORS = [
     {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',  # noqa: E501
+        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilhttps://e2.udemymail.com/ls/click?upn=ZF3sOyS2SxEPIoSZT6Aoc-2BEAPso9xRA49IDbkpAnXikErUH6t5PjQqSSf0O544umWSqyCgDBYEtD-2FjbZeZPJqNby58nVVi6baQ8dvSKVQiQ8ZD-2BsTxo5ZKbX9v74FPbjXO3nsUONlvttm39W5t3EgGnW8tf1dNIhEZ-2BCJgqAC4fZ250zKDNoETzpUh-2BIx7ExwiVUDpwFDqWbCsAYFBoYxmlxlGf-2F2wDFuKYTC5tvjDdb9WX2eX3hy52A6kjM-2BqfpkKNx3E-2B9HEzD33WQMhzTRHcMyHuWnVe-2FFxpITNhMK1c-3DWPnk_Ez-2BEnpJEv6BSxA22iHqIWGKJwPT6AC3unfJ2T3fhBiLY5PFKfF45uxBGXQJm5JBtQaYqkl3YRXGR2jMVhxGg9yrcU4vtl9hI-2FEVVhP7zoGO-2FDVoO2R2gTKwqAS63459zNato-2BGvYje9GAoKI6NJlhrbRq0JgMOOSTdP4McXOIybwzErAFY0Xe31TaNnH9B-2Fp0xA4JC2WMKvF8O7d8spm52snUMOZkFKwueeSNXIV7dsvjbpZETudih1mbaLoycryF8cxHX3TzuIrzKKV-2FyEkyoUaUrz9hNIA6KQ4XY3DDKWxhd7RRSP776W3CpaftxnZDp-2FQZtg1AXgcCCd-2FbcnWEGc9BusO9L73VyQupX1a7YxRx6mE1WRdQxtw5YF6TB5LkJ3bfAb2wctarTbUTKZ6l25Vy79WmgfpGZAKa9q6SQbdTLDWjRjfpOtOSTMfv9hkxJApVbCJzPiyJo721FfPXBZM00DaR-2Bh9Cmx48efXAECdMaQ9a3rSLmq7TfKWQeMYoHf1i2TPIIxw6ILRt8Dwng-3D-3DarityValidator',  # noqa: E501
     },
     {
         'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
