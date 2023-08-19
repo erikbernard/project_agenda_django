@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-ctm_6o++-0+5mah7ayki&5^ah#@-c1u#32*5ire$j&k18@vkft'
+SECRET_KEY = "django-insecure-ctm_6o++-0+5mah7ayki&5^ah#@-c1u#32*5ire$j&k18@vkft"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -31,55 +31,53 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
-    'contact',
+    "django.contrib.admin",
+    "django.contrib.auth",
+    "django.contrib.contenttypes",
+    "django.contrib.sessions",
+    "django.contrib.messages",
+    "django.contrib.staticfiles",
+    "contact",
 ]
 
 MIDDLEWARE = [
-    'django.middleware.security.SecurityMiddleware',
-    'django.contrib.sessions.middleware.SessionMiddleware',
-    'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
-    'django.contrib.auth.middleware.AuthenticationMiddleware',
-    'django.contrib.messages.middleware.MessageMiddleware',
-    'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    "django.middleware.security.SecurityMiddleware",
+    "django.contrib.sessions.middleware.SessionMiddleware",
+    "django.middleware.common.CommonMiddleware",
+    "django.middleware.csrf.CsrfViewMiddleware",
+    "django.contrib.auth.middleware.AuthenticationMiddleware",
+    "django.contrib.messages.middleware.MessageMiddleware",
+    "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-ROOT_URLCONF = 'project.urls'
+ROOT_URLCONF = "project.urls"
 
 TEMPLATES = [
     {
-        'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [
-            BASE_DIR / 'base_templates'
-        ],
-        'APP_DIRS': True,
-        'OPTIONS': {
-            'context_processors': [
-                'django.template.context_processors.debug',
-                'django.template.context_processors.request',
-                'django.contrib.auth.context_processors.auth',
-                'django.contrib.messages.context_processors.messages',
+        "BACKEND": "django.template.backends.django.DjangoTemplates",
+        "DIRS": [BASE_DIR / "base_templates"],
+        "APP_DIRS": True,
+        "OPTIONS": {
+            "context_processors": [
+                "django.template.context_processors.debug",
+                "django.template.context_processors.request",
+                "django.contrib.auth.context_processors.auth",
+                "django.contrib.messages.context_processors.messages",
             ],
         },
     },
 ]
 
-WSGI_APPLICATION = 'project.wsgi.application'
+WSGI_APPLICATION = "project.wsgi.application"
 
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+    "default": {
+        "ENGINE": "django.db.backends.sqlite3",
+        "NAME": BASE_DIR / "db.sqlite3",
     }
 }
 
@@ -89,16 +87,16 @@ DATABASES = {
 
 AUTH_PASSWORD_VALIDATORS = [
     {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilhttps://e2.udemymail.com/ls/click?upn=ZF3sOyS2SxEPIoSZT6Aoc-2BEAPso9xRA49IDbkpAnXikErUH6t5PjQqSSf0O544umWSqyCgDBYEtD-2FjbZeZPJqNby58nVVi6baQ8dvSKVQiQ8ZD-2BsTxo5ZKbX9v74FPbjXO3nsUONlvttm39W5t3EgGnW8tf1dNIhEZ-2BCJgqAC4fZ250zKDNoETzpUh-2BIx7ExwiVUDpwFDqWbCsAYFBoYxmlxlGf-2F2wDFuKYTC5tvjDdb9WX2eX3hy52A6kjM-2BqfpkKNx3E-2B9HEzD33WQMhzTRHcMyHuWnVe-2FFxpITNhMK1c-3DWPnk_Ez-2BEnpJEv6BSxA22iHqIWGKJwPT6AC3unfJ2T3fhBiLY5PFKfF45uxBGXQJm5JBtQaYqkl3YRXGR2jMVhxGg9yrcU4vtl9hI-2FEVVhP7zoGO-2FDVoO2R2gTKwqAS63459zNato-2BGvYje9GAoKI6NJlhrbRq0JgMOOSTdP4McXOIybwzErAFY0Xe31TaNnH9B-2Fp0xA4JC2WMKvF8O7d8spm52snUMOZkFKwueeSNXIV7dsvjbpZETudih1mbaLoycryF8cxHX3TzuIrzKKV-2FyEkyoUaUrz9hNIA6KQ4XY3DDKWxhd7RRSP776W3CpaftxnZDp-2FQZtg1AXgcCCd-2FbcnWEGc9BusO9L73VyQupX1a7YxRx6mE1WRdQxtw5YF6TB5LkJ3bfAb2wctarTbUTKZ6l25Vy79WmgfpGZAKa9q6SQbdTLDWjRjfpOtOSTMfv9hkxJApVbCJzPiyJo721FfPXBZM00DaR-2Bh9Cmx48efXAECdMaQ9a3rSLmq7TfKWQeMYoHf1i2TPIIxw6ILRt8Dwng-3D-3DarityValidator',  # noqa: E501
+        "NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator",  # noqa: E501
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
+        "NAME": "django.contrib.auth.password_validation.MinimumLengthValidator",
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
+        "NAME": "django.contrib.auth.password_validation.CommonPasswordValidator",
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
+        "NAME": "django.contrib.auth.password_validation.NumericPasswordValidator",
     },
 ]
 
@@ -106,9 +104,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
-LANGUAGE_CODE = 'pt-br'
+LANGUAGE_CODE = "pt-br"
 
-TIME_ZONE = 'America/Sao_Paulo'
+TIME_ZONE = "America/Sao_Paulo"
 
 USE_I18N = True
 
@@ -118,22 +116,20 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-STATIC_URL = 'static/'
-STATICFILES_DIRS = (
-    BASE_DIR / 'base_static',
-)
+STATIC_URL = "static/"
+STATICFILES_DIRS = (BASE_DIR / "base_static",)
 
-STATIC_ROOT =BASE_DIR / 'static'
+STATIC_ROOT = BASE_DIR / "static"
 
-MEDIA_URL = 'media/'
-MEDIA_ROOT = BASE_DIR / 'media'
+MEDIA_URL = "media/"
+MEDIA_ROOT = BASE_DIR / "media"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 try:
-    from project.location_settings import *  # noqa: F403
+    from project.location_settings import *  # noqa: F403 # type: ignore
 except ImportError:
     ...
