@@ -1,1 +1,7 @@
 venv
+db.sqlite3
+**/__pycache__
+static/
+media/
+
+**/location_settings.py
